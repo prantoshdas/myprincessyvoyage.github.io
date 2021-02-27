@@ -1,0 +1,124 @@
+body{
+    font: 1em sans-serif;
+    /*background-color: rgb(255,192,203);*/
+    background-color: #F4DECB;
+
+}
+header{
+    /*background-color: #7395AE;*/
+    /*background-color: #FE6587;*/
+    background-color: #94618E;
+
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-radius: 50%;
+    -ms-flex-align: center;
+}
+.title{
+    text-align: center;
+    font-family: pacifico;
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+    padding: 1em;
+}
+.nav{
+    font: 1em sans-serif;
+    justify-content: center;
+}
+.nav-menu{
+    list-style-type: none;
+    display: flex;
+    text-emphasis-color: black;
+}
+.nav-item{
+
+    margin: 1.5em;
+
+}
+.nav-item a:visited{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+.nav-item a:hover{
+    color:red;
+    background-color: transparent;
+    text-decoration: none;
+}
+.subscribe {
+    background-color: #F8EEE7;
+    padding: 2em;
+}
+#subscribe1{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /*background-color: black;*/
+    background-color: #49274A;
+}
+#subscribe-button{
+    background-color: black;
+    color: white;
+}
+.footer-container{
+    background-color: #49274A;
+    width: 20%;
+    padding: 1em;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    list-style: none;
+}
+.footer-item{
+    color: white;
+    margin: 0.5em;
+
+}
+.footer-item a:visited{
+    color:white;
+    background-color:transparent;
+    text-decoration:none;
+
+}
+.footer-item a:hover{
+    color:red;
+    background-color:transparent;
+    text-decoration:none;
+
+}
+
+.fab{
+    color: white;
+    margin: 0.5em;
+}
+.footer-icon{
+    position: relative;
+    float: right;
+    margin-top: 1em;
+}
+.footer-copyright{
+    color: white
+
+}
+.copyright{
+    font: 0.7em sans-serif;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    .footer-container{
+        display: block;
+    }
+    img{
+        width: 30%;
+    }
+}
