@@ -40,7 +40,7 @@ img{
     margin: 1.5em;
 
 }
-.nav-item a:visited{
+.nav-item a:link{
     color: black;
     background-color: transparent;
     text-decoration: none;
@@ -83,7 +83,7 @@ footer{
     margin: 0.5em;
 
 }
-.footer-item a:visited{
+.footer-item a:link{
     color:white;
     background-color:transparent;
     text-decoration:none;
